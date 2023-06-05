@@ -1,10 +1,8 @@
-body{
+body {
     font-family: 'Poppins', sans-serif;
 }
 
-
-
-header{
+header {
     display: flex;
     justify-content: space-between;
     padding: 25px;
@@ -12,26 +10,26 @@ header{
 
 
 
-ul.menu li{
+ul.menu li {
     float: left;
     margin: 10px;
-    font-family: 'Poppins';
-    
+
+
 }
 
-ul.menu li a{
+ul.menu li a {
     color: #ffffff;
     text-decoration: none;
-    font-family: 'Poppins';
     font-size: 14px;
     line-height: 16px;
 }
 
-button{
+button {
     margin-top: -10px;
-    font-family: 'Poppins';
+
 }
-button.sing-in{
+
+button.sing-in {
     border: 1px solid #ffffff;
     background-color: transparent;
     color: #ffffff;
@@ -40,7 +38,7 @@ button.sing-in{
     cursor: pointer;
 }
 
-button.sing-out{
+button.sing-out {
     border: 1px solid #000000;
     background-color: #000000;
     color: #ffffff;
@@ -48,56 +46,66 @@ button.sing-out{
     padding: 5px 15px;
     cursor: pointer;
 }
-.logo{
+
+.logo {
     float: left;
-    width:10px;
+    width: 10px;
     height: 5px;
 
 }
-.menu{
+
+.menu {
     float: right;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
-.limpar-flutuacao{
+
+.limpar-flutuacao {
     clear: both;
 }
-.center{
+
+.center {
     width: 1110px;
     margin: 0 auto;
 }
-.apresentacao{
+
+.apresentacao {
     background: url("/img/background.png") no-repeat center 0;
     padding-top: 30px;
     min-height: 100%;
     min-width: 100%;
 }
-.aprentacao2{
+
+.aprentacao2 {
     padding-top: 50px;
 }
-.titulo-apresentacao2{
+
+.titulo-apresentacao2 {
     color: #3b3322;
     font-size: 44px;
     line-height: 40px;
- 
-    
+
+
 }
-.titulo-apresentacao2 strong{
+
+.titulo-apresentacao2 strong {
     font-weight: 600;
 }
 
-.descricao-apresentacao2{
+.descricao-apresentacao2 {
     color: #544837;
     font-size: 18px;
     margin: 30px 0 30px 0;
 }
-.box{
+
+.box {
     width: 50%;
     float: left;
     padding-top: 60px;
 }
-.btn-started{
+
+.btn-started {
     background-color: #fc6404;
     font-size: 16px;
     font-weight: 600;
@@ -107,76 +115,310 @@ button.sing-out{
     border-radius: 4px;
     cursor: pointer;
 }
-.video{
+
+.video {
     width: 50%;
     float: left;
     padding-top: 60px;
 }
 
-.box-icone{
+.box-icone {
     width: 80px;
     height: 80px;
     border: 2px solid #fc6404;
     border-radius: 10px;
     text-align: center;
 }
-.cor{
+
+.cor {
     background-color: #fc6404;
 }
-.box-icone img{
+
+.box-icone img {
     margin-top: 15px;
     width: 50px;
     height: 50px;
 }
 
-.box-icone-titulo{
+.box-icone-titulo {
     font-size: 22px;
     font-weight: 600;
-    font-family: 'Poppins';
     margin: 15px 0;
 }
-.box-icone-texto{
+
+.box-icone-texto {
     color: #5C5040;
     font-size: 16px;
     line-height: 21px;
 }
 
-.box-wraper{
+.box-wraper {
     margin-top: 200px;
     margin-bottom: 200px;
     float: left;
     width: 25%;
 }
 
-.icones{
+.icones {
     padding: 200px 0;
 
 }
-#about{
+
+#about {
     background: url(../img/bg-about.png) center 0 no-repeat;
     height: 1000px;
 }
 
-.box-ilustracao{
+.box-ilustracao {
     width: 50%;
     float: left;
 }
 
-.about-box{
+
+.about-box {
     width: 50%;
     float: left;
 }
 
-.about-box__title{
+.about-box__title {
     font-size: 27px;
     line-height: 19px;
-    color:#3b3322;
+    color: #3b3322;
     opacity: .7;
 }
-.about-box__subtitle span{
+
+.about-box__subtitle span {
+    float: left;
+    padding-top: 7px 10px 7px 10px;
+
+}
+
+.about-box__subtitle img {
+    float: left;
+
+
+}
+
+.about-box__subtitle {
+    color: #3b3322;
+    font-size: 40px;
+    line-height: 44px;
+    font-weight: 600;
+    margin: 10px 0px 20px 0px;
+}
+
+.checklist {
+    width: 24px;
+    height: 24px;
+    background: url(../img/checklist.png) 0 0 no-repeat;
     float: left;
 
 }
-.about-box__subtitle img{
+
+.item-list {
+    list-style-type: none;
+}
+
+
+.item-list-about span {
     float: left;
+    padding: 5px 0 0 10px;
+
+
+}
+
+.item-list-about {
+    margin-bottom: 20px;
+
+}
+
+.img-responsiva {
+    width: 100%;
+
+}
+
+.title {
+    font-size: 34px;
+    line-height: 36px;
+    font-weight: 600;
+    color: #3b3322;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.subtitle {
+    font-size: 16px;
+    line-height: 18px;
+    color: #544837;
+    text-align: center;
+
+
+
+}
+
+.our-story__box {
+    width: 50%;
+    float: left;
+    position: relative;
+
+}
+
+.our-story__title {
+    font-size: 26px;
+    line-height: 28px;
+    color: #111111;
+    font-weight: 600;
+    margin-bottom: 20px;
+
+
+}
+
+.our-story__text {
+    font-size: 16px;
+    line-height: 22px;
+
+}
+
+.our-story-wrapper {
+    padding: 80px;
+
+}
+
+.our-story-icon {
+    position: absolute;
+    top: 50px;
+    left: 0;
+
+
+}
+
+.newsletter__box {
+    border: 20px solid #fc6404;
+    border-radius: 10px;
+    margin: 20% auto;
+    background-color: #fc6404;
+    
+
+}
+
+.newsletter {
+    padding-top: 120px;
+}
+
+.newsletter-wrapper {
+    padding: 50px;
+
+}
+
+.newsletter-text {
+    color: #ffffff;
+    font-size: 20px;
+    line-height: 28x;
+    padding-bottom: 10px;
+
+
+
+}
+
+.newsletter-form {
+    border: 1px solid #ffffff;
+    border-radius: 10px;
+    position: relative;
+    padding-top: 30px;
+    margin-top: 30px;
+    height: 25px;
+ 
+
+
+}
+
+.newsletter-input {
+    background: none;
+    border: none;
+    color: #ffffff;
+    padding-bottom: 20px;
+    
+
+}
+
+::-webkit-input-placeholder {
+    color: #ffffff;
+    font-size: 15px;
+    
+}
+
+::-moz-placeholder {
+    color: #ffffff;
+    font-size: 15px;
+}
+
+:-ms-input-placeholder {
+    color: #ffffff;
+    font-size: 15px;
+}
+
+:-moz-placeholder {
+    color: #ffffff;
+    font-size: 15px;
+}
+
+.newsletter-submit {
+    background: url(../img/send-email.png) 0 0 no-repeat;
+    width: 34px;
+    height: 34px;
+    border: none;
+}
+
+.newsletter-box-submit {
+    position: absolute;
+    right: 15px;
+    top:7px;
+    border-left: 1px solid #ffffff;
+    padding-left: 15px;
+    
+
+
+
+}
+
+.newsletter-box-input {
+    position:absolute;
+    margin-top:-15px;
+
+
+}
+.newsletter-input-box{
+    padding: 10px 50px 10px 10px;
+
+}
+.footer-title{
+    font-size: 20px;
+    line-height: 24px;
+    font-weight: 600;
+    color: #111111;
+    margin-bottom: 40px;
+    display: block;
+
+
+}
+
+.footer-link{
+    color:#3b3322;
+
+
+}
+
+.menu-item{
+    margin-bottom: 15px;
+
+}
+.footer-descrition{
+    color:#544837;
+
+}
+.footer .center{
+    border-top:1px solid #acacab;
+}
+.footer{
+    padding-top: -30px;
 }
